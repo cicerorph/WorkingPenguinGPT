@@ -88,7 +88,7 @@
 		  {
             opcode: "__NOUSEOPCODE",
             blockType: Scratch.BlockType.LABEL,
-            text: "chatbot mangagement",
+            text: "Chatbot management",
           },
           {
             opcode: 'createChat',
@@ -168,7 +168,7 @@
 		            {
             opcode: 'importAll',
             blockType: Scratch.BlockType.COMMAND,
-            text: 'Import all from [json] and [merge]',
+            text: 'Import chats from [json] and [merge]',
             arguments: {
               json: {
                 type: Scratch.ArgumentType.STRING,
@@ -188,7 +188,7 @@
 		  		  {
             opcode: 'listChats',
             blockType: Scratch.BlockType.REPORTER,
-            text: 'Curently Active chats'
+            text: 'Currently Active chats'
           },
         ],
         menus: {
@@ -311,7 +311,7 @@
           }
         }
       }
-      return 'Error: There is no chat history availble for that chatbot.';
+      return 'Error: There is no chat history available for that chatbot.';
     }
 
     exportChat(args) {
@@ -321,7 +321,7 @@
         const json = JSON.stringify(chatHistory);
         return json;
       } else {
-        return 'Error: There is no chat history availble for that chatbot.';
+        return 'Error: There is no chat history available for that chatbot.';
       }
     }
 
@@ -363,7 +363,7 @@
         delete this.chatHistories[chatID];
       }
 	  else {
-		return "Error: There is no chat histroy availble for that chatbot.";
+		return "Error: There is no chat history available for that chatbot.";
 		}
     }
 
