@@ -2,7 +2,8 @@
 
 <img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/thumb.svg" width="300%" height="300"/>
 
-The power of GPT-3.5 in your projects for free! Included: single prompts, definable chatbots, and chat history manipulation. Extension originally made by LOLEMO then forked by Anonymous_cat1.
+## Harness the power of ChatGPT-3.5 in your projects! 
+*Extension originally made by LOLEMO then forked by Anonymous_cat1.*
 
 ## API Note
 APIs go up and down every once in a while, so if you get error responses, you should be able to find more reverse proxies here on the internet.
@@ -15,29 +16,42 @@ To use this extension in Turbowarp (or any other Scratch mod that allows custom 
     https://anonymous-cat1.github.io/WorkingTurboGPT/extension.js
     
 ## How to use
+If you find that using the extension only reports errors, use this block to update the API URL. (You can find ChatGPT reverse proxies by looking them up)
+
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_2_2023-4_59_51 PM.svg" width="100%" height="70"/>
+
+Additionally, You can use this reporter to check if the API you are using is alive. 
+
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_28_51 PM.svg" width="100%" height="70"/>
+
 To simply send a prompt to ChatGPT without any context (chat history), use this reporter:
 
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_27_7_2023-19_31_46.svg" width="100%" height="70"/>
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_28_56%20PM.svg" width="100%" height="70"/>
 
 
-If you want to use prompts with history (GPT remembers previous messages) you can create a chatbot and then send prompts to it
-Start by creating a chatbot with a name or ID
+If you want to use prompts with history (GPT remembers previous messages) you will have to create a chatbot! you can use these blocks to manage (create, delete, and reset) chatbots.
 
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_27_7_2023-19_57_15.svg" width="100%" height="65"/> 
-
-Then, use this reporter to interact with it:
-
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_27_7_2023-20_19_46.svg" width="100%" height="71"/>
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_19 PM.svg" width="100%" height="200"/>
 
 Also, you can use this block to change the behavior of the chatbot:
 
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_27_7_2023-20_00_45.svg" width="100%" height="70"/>
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_02 PM.svg" width="100%" height="70"/>
 
-Finally, use these blocks to reset or delete the chatbots:
+Then, use this reporter to interact with the one you have created:
 
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_27_7_2023-20_01_03.svg" width="100%" height="70"/>
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_27_7_2023-20_01_09.svg" width="100%" height="70"/>
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_39_30 PM.svg" width="100%" height="71"/>
 
-If you find that using the extension only reports errors, use this block to update the API URL. (You can find ChatGPT reverse proxies by looking them up)
+Now, if you want to export chat(s) (or just the last request and/or generated text), use these blocks to export those:
 
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_2_2023-4_59_51%20PM.svg" width="100%" height="70"/>
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_37 PM.svg" width="100%" height="50"/>
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_43 PM.svg" width="100%" height="50"/>
+
+
+If you want to import chat(s), use these blocks to import chat(s):
+
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_40 PM.svg" width="100%" height="120"/>
+
+Finally, to get all active chats as an array, use this block:
+
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_31 PM.svg" width="100%" height="50"/>
+
