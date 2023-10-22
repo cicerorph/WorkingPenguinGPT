@@ -44,7 +44,7 @@ Then, use this reporter to interact with the one you have created:
 Now, if you want to export chat(s) (or just the last request and/or generated text), use these blocks to export those:
 
 <img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_37 PM.svg" width="100%" height="50"/>
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_43 PM.svg" width="100%" height="50"/>
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_31 PM.svg" width="100%" height="50"/>
 
 
 If you want to import chat(s), use these blocks to import chat(s):
@@ -53,5 +53,5 @@ If you want to import chat(s), use these blocks to import chat(s):
 
 Finally, to get all active chats as an array, use this block:
 
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_31 PM.svg" width="100%" height="50"/>
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_43 PM.svg" width="100%" height="50"/>
 
