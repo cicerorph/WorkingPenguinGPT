@@ -1,6 +1,6 @@
-// Working TurboGPT
-// If you see this on PenguinMod, YOU DO NOT NEED TO LOAD UNSANDBOXED.
-// Harness the power of ChatGPT-3.5 in your projects!
+// -=Working TurboGPT=-
+// =Harness the power of ChatGPT-3.5 in your projects!=
+// (YOU DO NOT NEED TO LOAD UNSANDBOXED)
 // By LOLEMO, Forked by Anonymous_cat1.
 // Only tested on PenguinMod.
 
