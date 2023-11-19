@@ -11,9 +11,9 @@ The API used in LOLEMO's version is dead, so I've updated it to use https://api.
 
 ## Installation
 To use this extension in Turbowarp (or any other Scratch mod that allows custom extensions), open Add Extension > Custom Extension and paste this link
-(Note: If you just want to try it out, [try it here!](https://studio.penguinmod.com/editor.html?extension=https://anonymous-cat1.github.io/WorkingTurboGPT/WorkingTurboGPT.js))
+(Note: If you just want to try it out, [try it here!](https://studio.penguinmod.com/editor.html?extension=https://anonymous-cat1.github.io/WorkingTurboGPT/extension.js))
 
-    https://anonymous-cat1.github.io/WorkingTurboGPT/WorkingTurboGPT.js
+    https://anonymous-cat1.github.io/WorkingTurboGPT/extension.js
     
 ## How to use
 If you find that using the extension only reports errors, use this block to update the API URL. (You can find ChatGPT reverse proxies by looking them up)
