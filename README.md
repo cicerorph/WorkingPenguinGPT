@@ -41,11 +41,14 @@ Then, use this reporter to interact with the one you have created:
 
 <img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_39_30 PM.svg" width="100%" height="71"/>
 
-Now, if you want to export chat(s) (or just the last request and/or generated text), use these blocks to export those:
+If you want to get a predefiend jailbreak or prompt. You can use this block:
+
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_11_19_2023-3_14_26%20PM.svg" width="100%" height="71"/>
+
+Now, if you want to export chat(s), use these blocks to export those:
 
 <img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_37 PM.svg" width="100%" height="50"/>
-<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_10_14_2023-4_29_31 PM.svg" width="100%" height="50"/>
-
+<img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/block_11_19_2023-3_17_42%20PM.svg" width="100%" height="50"/>
 
 If you want to import chat(s), use these blocks to import chat(s):
 
