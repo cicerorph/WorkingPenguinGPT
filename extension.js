@@ -1,6 +1,3 @@
-// NOTE: as of 11/19/23, the extension's URL has moved to https://anonymous-cat1.github.io/WorkingTurboGPT/WorkingTurboGPT.js 
-// This version may not be updated.
-
 // -=Working TurboGPT=-
 // =Harness the power of ChatGPT-3.5 in your projects!=
 // (YOU DO NOT NEED TO LOAD UNSANDBOXED)
