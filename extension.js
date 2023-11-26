@@ -264,7 +264,7 @@
         if (!response.ok) {
             throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
           }
-        return (`Error: ${response.status} ${response.statusText}`);
+        return response.json()
       })
       .then(data => {
         const botResponse = data.choices[0].message.content;
@@ -366,7 +366,7 @@
           if (!response.ok) {
               throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
             }
-        return (`Error: ${response.status} ${response.statusText}`);
+        return response.json()
       })
       .then(data => {
         const botResponse = data.choices[0].message.content;
