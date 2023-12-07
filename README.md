@@ -9,6 +9,8 @@
 APIs go up and down every once in a while, so if you get error responses, you should be able to find more reverse proxies here on the internet.
 The API used in LOLEMO's version is dead, so I've updated it to use https://api.tmrace.net/v1/chat/completions by default, although you can update it using the "Set Reverse Proxy API URL" block.
 
+Ratelimits are inevitable however, you can get around them with a VPN/Proxy or just waiting a few hours. I may include automatic proxy switching at some point if I ever learn enough JS. lol
+
 ## Installation
 To use this extension in Turbowarp (or any other Scratch mod that allows custom extensions), open Add Extension > Custom Extension and paste this link
 (Note: If you just want to try it out, [try it here!](https://studio.penguinmod.com/editor.html?extension=https://anonymous-cat1.github.io/WorkingTurboGPT/extension.js))
