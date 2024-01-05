@@ -226,10 +226,14 @@
 	}
 		checkApiUrl() {
 	  // Send a simple GET request to the api_url
+		const fakerefer = "https://" + Math.round(Math.random() * 40000000) + ".com"
+		// this is to bypass some apis from blocking scratch ides
+			
 	  	  return Scratch.fetch(api_url, {
 		method: 'POST',
 		headers: {
 		  'Content-Type': 'application/json',
+		  'Origin': ''+ fakerefer +'',
 		},
 		body: JSON.stringify({
 		  model: "gpt-3.5-turbo",
