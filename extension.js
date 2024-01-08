@@ -35,7 +35,7 @@
 		  arguments: {
 			URL: {
 			  type: Scratch.ArgumentType.STRING,
-			  defaultValue: 'https://api.tmrace.net/v1/chat/completions'
+			  defaultValue: 'https://uncors.vercel.app/?url=https://api.tmrace.net/v1/chat/completions'
 			}
 		  },
 		},
@@ -231,7 +231,7 @@
 		headers: {
 		  'Content-Type': 'application/json',
 		  'Origin': 'https://gptcall.net/',
-		  'Referer': 'https://gptcall.net/',
+		  'Referer': 'https://gptcall.net/'
 		},
 		body: JSON.stringify({
 		  model: "gpt-3.5-turbo",
@@ -256,7 +256,7 @@
         headers: {
           'Content-Type': 'application/json',
 	  'Origin': 'https://gptcall.net/',
-	  'Referer': 'https://gptcall.net/',
+	  'Referer': 'https://gptcall.net/'
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
@@ -360,7 +360,7 @@
         headers: {
           'Content-Type': 'application/json',
 	  'Origin': 'https://gptcall.net/',
-	  'Referer': 'https://gptcall.net/',
+	  'Referer': 'https://gptcall.net/'
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
