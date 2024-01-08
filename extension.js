@@ -225,15 +225,13 @@
 	  api_url = newApiUrl;
 	}
 		checkApiUrl() {
-	  // Send a simple GET request to the api_url
-		const fakerefer = "https://" + Math.round(Math.random() * 40000000) + ".com"
-		// this is to bypass some apis from blocking scratch ides
-			
+	  // Send a simple GET request to the api_url			
 	  	  return Scratch.fetch(api_url, {
 		method: 'POST',
 		headers: {
 		  'Content-Type': 'application/json',
-		  'Origin': ''+ fakerefer +'',
+		  'Origin': 'https://gptcall.net/',
+		  'Referer': 'https://gptcall.net/',
 		},
 		body: JSON.stringify({
 		  model: "gpt-3.5-turbo",
@@ -252,14 +250,13 @@
 
 	singlePrompt(args) {
 	const prompt = args.PROMPT;
-	const fakerefer = "https://" + Math.round(Math.random() * 40000000) + ".com"
-	// this is to bypass some apis from blocking scratch ides
 
       return Scratch.fetch(api_url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-	  'Origin': ''+ fakerefer +'',
+	  'Origin': 'https://gptcall.net/',
+	  'Referer': 'https://gptcall.net/',
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
@@ -362,6 +359,8 @@
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+	  'Origin': 'https://gptcall.net/',
+	  'Referer': 'https://gptcall.net/',
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
