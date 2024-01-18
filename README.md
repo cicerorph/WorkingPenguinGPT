@@ -1,13 +1,16 @@
-# WorkingTurboGPT
+# WorkingPenguinGPT
 
 <img src="https://anonymous-cat1.github.io/WorkingTurboGPT/img/thumb.svg" width="300%" height="300"/>
 
 ## Harness the power of ChatGPT-3.5 in your projects! 
-*Extension originally made by LOLEMO then forked by Anonymous_cat1.*
+*Extension originally forked by Anonymous_cat1 then forked by MubiLop (cicerorph).*
+
+### This isn't gonna be full edited!
 
 ## API Note
 APIs go up and down every once in a while, so if you get error responses, you should be able to find more reverse proxies here on the internet.
 The API used in LOLEMO's version is dead, so I've updated it to use https://api.tmrace.net/v1/chat/completions by default, although you can update it using the "Set Reverse Proxy API URL" block.
+
 
 Ratelimits are inevitable however, you can get around them with a VPN/Proxy or just waiting a few hours. I may include automatic proxy switching at some point if I ever learn enough JS. lol
 
