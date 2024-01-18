@@ -229,9 +229,7 @@
 	  	  return Scratch.fetch(api_url, {
 		method: 'POST',
 		headers: {
-		  'Content-Type': 'application/json',
-		  'Origin': 'https://gptcall.net/',
-		  'Referer': 'https://gptcall.net/'
+		  'Content-Type': 'application/json'
 		},
 		body: JSON.stringify({
 		  model: "gpt-3.5-turbo",
@@ -254,9 +252,7 @@
       return Scratch.fetch(api_url, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
-	  'Origin': 'https://gptcall.net/',
-	  'Referer': 'https://gptcall.net/'
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
@@ -270,7 +266,7 @@
         return response.json();
       })
       .then(data => {
-        const botResponse = data.choices[0].message.content;
+        const botResponse = data;
         return botResponse;
       })
       .catch(error => {
@@ -358,9 +354,7 @@
       return Scratch.fetch(api_url, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
-	  'Origin': 'https://gptcall.net/',
-	  'Referer': 'https://gptcall.net/'
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
